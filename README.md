@@ -75,7 +75,7 @@ Before starting the frontend, update the API configuration so it points to your 
 src/api/axiosConfig.js
 ```
 
-### Update the file with your backend details
+### Update the axiosConfig file with your backend url
 
 ```javascript
 import axios from 'axios';
@@ -93,19 +93,19 @@ export default axios.create({
 Replace:
 
 ```javascript
-https://{your-backend-url}:8080/api
+https://{your-backend-url}:8080
 ```
 
 With your actual backend URL, for example:
 
 ```javascript
-http://192.168.1.10:8080/api
+http://192.168.1.10:8080
 ```
 
 or
 
 ```javascript
-https://your-domain.com/api
+https://your-domain.com
 ```
 
 ---
@@ -183,8 +183,3 @@ Frontend setup steps:
 
 ---
 
-## 🎓 Final Words
-
-Good luck with your studies and project deployment.
-
-**— DigitalWitch**
