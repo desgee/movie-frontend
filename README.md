@@ -1,6 +1,6 @@
 # 🎬 Netflix Frontend
 
-**By DigitalWitch | Cloud • DevOps • Security**
+
 
 ---
 
